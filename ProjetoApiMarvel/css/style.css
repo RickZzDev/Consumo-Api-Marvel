@@ -1,0 +1,85 @@
+.caixas{
+   
+    width: 250px;
+    height: 200px;
+}
+#container{
+    min-height: 3050px;
+    width: 100%;
+    overflow: hidden;
+    background:;
+}
+.primeira{
+    height: 50px;
+    margin-left:auto;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,0,0,1) 42%, rgba(198,21,0,1) 100%);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    opacity: 0;
+}
+.segunda{
+    height: 350px;
+    
+    margin-left: -90px;
+    z-index: 999;
+    border-radius: 10px;
+    opacity: 0;
+   
+}
+.terceira{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,0,0,1) 42%, rgba(198,21,0,1) 100%);
+    margin-left: auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    opacity: 0;
+    
+}
+.quarta{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,0,0,1) 42%, rgba(198,21,0,1) 100%);
+    margin-left: -110px;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    opacity: 0;
+    width:230px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#caixaPesquisa{
+    width:50vw;
+    height: 0px;
+    margin-bottom: 70px;
+}
+
+#spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #22a6b3;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left:1050px;
+    animation: spin 1s linear infinite;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+#spinner_box{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); };
+}
